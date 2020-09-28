@@ -8,7 +8,7 @@ This repo contains a workshop to teach you about getting started with the Cypres
 
 - [git](https://git-scm.com/) v2 or greater
 - [NodeJS](https://nodejs.org/) v10 or greater
-- [npm](https://www.npmjs.com/) v8 or greater
+- [npm](https://www.npmjs.com/) v6 or greater
 
 If you do not have Node installed and are running on Mac or Linux, I advise the use of nvm - https://github.com/nvm-sh/nvm 
 
@@ -27,12 +27,15 @@ After you've made sure to have the correct things (and versions) installed, you
 should be able to just run a few commands to get set up:
 
 ```
-todo - add repo instructions here to get demo app
+git clone https://github.com/rob212/cypress-workshop.git
+cd cypress-workshop
 ```
 
 ## Running the code
 
-Open up this repo in your favourite editor. Run `npm install` once to get dependencies then `npm test` to start the test watcher.
+Open up this repo in your favourite editor. Run `npm install` once to get dependencies then `npm cy:open` to open the Cypress test runner. 
+
+If it's your first time running the test runner, a new 'cypress' folder will be created at the root of your project containing examples in the 'integration' folder.
 
 
 ### Schedule
