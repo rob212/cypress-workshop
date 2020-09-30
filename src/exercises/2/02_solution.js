@@ -1,3 +1,9 @@
+/*
+    Your 'cypress/integration/journey_test.spec.js' should
+    contain the following content at the end of this lesson
+*/
+
+
 /* the triple slash directive enables intelisense within VsCode on a per file basis.
  alternatively this can be set project wide via jsconfig.json
 */

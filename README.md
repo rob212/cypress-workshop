@@ -28,7 +28,7 @@ should be able to just run a few commands to get set up:
 
 ```sh
 $ git clone https://github.com/rob212/cypress-workshop.git
-cd cypress-workshop
+$ cd cypress-workshop
 ```
 
 ## Running the code
