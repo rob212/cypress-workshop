@@ -7,7 +7,7 @@
 
 it('goose finder app happy path journey test', () => {
     cy.visit('https://record-a-goose-sighting.herokuapp.com/steps/start');
-    cy.get('.govuk-button').click();
+    cy.findByText('Start now').click();
 
     // Geese Liked Page
     cy.get('#geese-liked').check();

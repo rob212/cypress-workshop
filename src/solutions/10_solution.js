@@ -7,23 +7,23 @@
 
 it('goose finder app happy path journey test', () => {
     cy.visit('https://record-a-goose-sighting.herokuapp.com/steps/start');
-    cy.get('.govuk-button').click();
-
+    cy.findByText('Start now').click();
+    
     // Geese Liked Page
-    cy.get('#geese-liked').check();
-    cy.get('.govuk-button').click();
+    cy.findByLabelText('Yes').check();
+    cy.findByText('Continue').click();
 
     // Geese Type Page
-    cy.get('#goose-type').type('Pilgrim Goose {enter}');
+    cy.findByLabelText('Tell us what type of goose it was').type('Pilgrim Goose {enter}');
 
     // Date Saw Goose Page
-    cy.get('#date-saw-goose-day').type('20');
-    cy.get('#date-saw-goose-month').type('10');
-    cy.get('#date-saw-goose-year').type('2020');
-    cy.get('.govuk-button').click();
+    cy.findByLabelText('Day').type('20');
+    cy.findByLabelText('Month').type('20');
+    cy.findByLabelText('Year').type('20');
+    cy.findByText('Continue').click();
 
     // Check Your Answers Page
-    cy.get('.govuk-button').click();
+    cy.findByText('Continue').click();
 
      // Final Page
      cy.contains('GOOSE RECORDED');
