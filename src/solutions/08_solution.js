@@ -5,7 +5,7 @@
 
 /// <reference types="cypress" />
 
-it('should naviate to goose finder app', () => {
+it('sgoose finder app happy path journey test', () => {
     cy.visit('https://record-a-goose-sighting.herokuapp.com/steps/start');
     cy.get('.govuk-button').click();
 
@@ -24,4 +24,8 @@ it('should naviate to goose finder app', () => {
 
     // Check Your Answers Page
     cy.get('.govuk-button').click();
-})
+
+     // Final Page
+     cy.contains('GOOSE RECORDED');
+     cy.get('.govuk-panel__body strong').contains(/[A-Z]{3}[0-9]{4}[A-Z]{1}/);
+});

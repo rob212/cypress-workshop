@@ -3,9 +3,8 @@
     contain the following content at the end of this lesson
 */
 
-
 /// <reference types="cypress" />
 
-it('should naviate to goose finder app', () => {
-    cy.visit('https://record-a-goose-sighting.herokuapp.com/steps/start/cakes');
-})
+it('goose finder app happy path journey test', () => {
+    cy.visit('https://record-a-goose-sighting.herokuapp.com/steps/start/fake-url-on-purpose');
+});

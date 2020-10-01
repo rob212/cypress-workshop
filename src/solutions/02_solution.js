@@ -15,6 +15,6 @@
     Mocha, Chai and Cypress calls can be made without explicit imports.
 */  
 
-it('<name of your test>', () => {
-    cy.visit('<url>');
+it('goose finder app happy path journey test', () => {
+    cy.visit('https://record-a-goose-sighting.herokuapp.com/steps/start');
 });
