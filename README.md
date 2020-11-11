@@ -1,6 +1,6 @@
 # Cypress workshop
 
-👋 hello! 
+👋 hello!
 
 This repo contains a workshop to teach you about getting started with the Cypress testing framework (https://www.cypress.io/).
 
@@ -10,7 +10,7 @@ This repo contains a workshop to teach you about getting started with the Cypres
 - [NodeJS](https://nodejs.org/) v10 or greater
 - [npm](https://www.npmjs.com/) v6 or greater
 
-> If you do not have Node installed and are running on Mac or Linux, I advise the use of [nvm](https://github.com/nvm-sh/nvm) 
+> If you do not have Node installed and are running on Mac or Linux, I advise the use of [nvm](https://github.com/nvm-sh/nvm)
 
 All of these must be available in your `PATH`. To verify things are set up
 properly, you can run this:
@@ -33,8 +33,13 @@ $ cd cypress-workshop
 
 ## Running the code
 
-Open up this repo in your favourite editor. Run `npm install` once to get the dependencies. 
+Open up this repo in your favourite editor. Run `npm install` once to get the dependencies.
 
+## Exercises
+
+Once you have successfully installed dependencies the first exercise can be found in /src/exercises/01.md
+
+Work your way through the exercises sequentially. The solutions are available in /src/solutions but don't be tempted to look before you try them for yourself, otherwise you are stealing your own learning.
 
 ### Schedule
 
@@ -53,5 +58,3 @@ Please do ask! Interrupt me. If you have an unrelated question, please send me i
 
 - Help us make this more human by keeping your video on if possible
 - Keep microphone muted unless speaking
-
-### Exercises
