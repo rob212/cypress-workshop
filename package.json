@@ -3,14 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Workshop to introduce and get started with the Cypress testing framework utilising Cypress Testing Library to create a user focussed journey",
-  "main": "src/exercises/01.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rob212/cypress-workshop.git"
   },
   "keywords": [
     "cypress",
@@ -18,16 +13,9 @@
   ],
   "author": "Rob McBryde",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rob212/cypress-workshop/issues"
-  },
   "homepage": "https://github.com/rob212/cypress-workshop#readme",
   "devDependencies": {
     "@testing-library/cypress": "^7.0.1",
     "cypress": "^5"
-  },
-  "dependencies": {
-    "axe-core": "^4.0.2",
-    "lodash": "^4.17.20"
   }
 }
