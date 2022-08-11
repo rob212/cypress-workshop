@@ -15,6 +15,6 @@
   "homepage": "https://github.com/rob212/cypress-workshop#readme",
   "devDependencies": {
     "@testing-library/cypress": "^7.0.1",
-    "cypress": "^6"
+    "cypress": "10.4.0"
   }
 }
