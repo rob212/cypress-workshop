@@ -27,4 +27,6 @@ it('goose finder app happy path journey test', () => {
 
     // Is success message displayed to user
     cy.findByRole('heading', {name: /GOOSE RECORDED/, level: 1}).click()
+    cy.findByText('Your reference number')
+        .findByText(/[A-Z]{3}[0-9]{4}[A-Z]{1}/)
 });
