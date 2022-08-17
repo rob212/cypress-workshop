@@ -46,15 +46,14 @@ Work your way through the exercises sequentially. The solutions are available in
 - 🎙 Logistics
 - 🎙 What is Cypress?
 - 💪 Testing an existing app
-- 🎙 Introducing Cypress Testing Library
-- 💡 Writing happy path test for your own app
+- 💡 Introducing Cypress Testing Library
 - ❓ Q&A
 
 ### Questions
 
-Please do ask! Interrupt me. If you have an unrelated question, please send me it on Slack.
+Please do ask! Interrupt me. If you have an unrelated question, please send me it on Slack/Gather.
 
-### Slack (for remote workshops)
+### Gather (for remote workshops)
 
 - Help us make this more human by keeping your video on if possible
 - Keep microphone muted unless speaking
