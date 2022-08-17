@@ -4,7 +4,8 @@
   "type": "module",
   "description": "Workshop to introduce and get started with the Cypress testing framework utilising Cypress Testing Library to create a user focussed journey",
   "scripts": {
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run":  "cypress run"
   },
   "keywords": [
     "cypress",
