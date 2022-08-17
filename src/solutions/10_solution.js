@@ -6,26 +6,25 @@
 /// <reference types="cypress" />
 
 it('goose finder app happy path journey test', () => {
-    cy.visit('https://record-a-goose-sighting.herokuapp.com/steps/start');
-    cy.findByText('Start now').click();
-    
-    // Geese Liked Page
-    cy.findByLabelText('Yes').check();
-    cy.findByText('Continue').click();
+    cy.visit('https://record-a-goose-sighting.herokuapp.com/steps/start')
+    cy.findByRole('button', {name: /Start now/i}).click()
 
-    // Geese Type Page
-    cy.findByLabelText('Tell us what type of goose it was').type('Pilgrim Goose {enter}');
+    // Geese Liked page 
+    cy.findByRole('radio', {name: /Yes/i}).check()
+    cy.findByRole('button', {name: /Continue/i}).click()
 
-    // Date Saw Goose Page
-    cy.findByLabelText('Day').type('20');
-    cy.findByLabelText('Month').type('20');
-    cy.findByLabelText('Year').type('20');
-    cy.findByText('Continue').click();
+    // Geese Type page
+    cy.findByLabelText(/Tell us what type of goose/i).type('Big one {enter}')
 
-    // Check Your Answers Page
-    cy.findByText('Continue').click();
+    // Date Saw Goose page
+    cy.findByLabelText(/Day/i).type('12')
+    cy.findByLabelText(/Month/i).type('4')
+    cy.findByLabelText(/Year/i).type('2022')
+    cy.findByRole('button', {name: /Continue/i}).click()
 
-     // Final Page
-     cy.contains('GOOSE RECORDED');
-     cy.get('.govuk-panel__body strong').contains(/[A-Z]{3}[0-9]{4}[A-Z]{1}/);
+    // Check your answers summary page
+    cy.findByRole('button', {name: /Continue/i}).click()
+
+    // Is success message displayed to user
+    cy.findByRole('heading', {name: /GOOSE RECORDED/, level: 1}).click()
 });
