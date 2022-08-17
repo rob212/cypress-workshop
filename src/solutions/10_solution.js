@@ -14,12 +14,12 @@ it('goose finder app happy path journey test', () => {
     cy.findByRole('button', {name: /Continue/i}).click()
 
     // Geese Type page
-    cy.findByLabelText(/Tell us what type of goose/i).type('Big one {enter}')
+    cy.findByLabelText(/Tell us what type of goose/i).type('Pilgrim Goose {enter}')
 
     // Date Saw Goose page
-    cy.findByLabelText(/Day/i).type('12')
-    cy.findByLabelText(/Month/i).type('4')
-    cy.findByLabelText(/Year/i).type('2022')
+    cy.findByLabelText(/Day/i).type('20')
+    cy.findByLabelText(/Month/i).type('10')
+    cy.findByLabelText(/Year/i).type('2020')
     cy.findByRole('button', {name: /Continue/i}).click()
 
     // Check your answers summary page
