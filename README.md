@@ -2,7 +2,9 @@
 
 👋 hello!
 
-This repo contains a workshop to teach you about getting started with the Cypress testing framework (https://www.cypress.io/).
+This repo contains a workshop to teach you about getting started with the [Cypress testing framework](https://www.cypress.io/).
+
+![cypress logo](src/images/cypress-io-logo.png)
 
 ## System Requirements
 
