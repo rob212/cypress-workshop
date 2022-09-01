@@ -4,7 +4,12 @@
 
 This repo contains a workshop to teach you about getting started with the [Cypress testing framework](https://www.cypress.io/).
 
-![cypress logo](src/images/cypress-io-logo.png)
+![cypress logo](/images/cypress-io-logo.png)
+
+## Learning Outcomes
+- Create your first ever Cypress test
+- How to automate a user journey
+- Produce tests the right way using the ‘Cypress Testing Library’ 
 
 ## System Requirements
 
