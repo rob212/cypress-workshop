@@ -1,5 +1,5 @@
 /*
-    Your 'cypress/integration/journey_test.spec.js' should
+    Your 'cypress/integration/journey_test.cy.js' should
     contain the following content at the end of this lesson
 */
 
@@ -7,7 +7,7 @@
 
 it('goose finder app happy path journey test', () => {
     cy.visit('https://record-a-goose-sighting.herokuapp.com/steps/start');
-    cy.findByText('Start now').click();
+    cy.findByRole('button', {name: /Start now/i}).click()
 
     // Geese Liked Page
     cy.get('#geese-liked').check();

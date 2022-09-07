@@ -4,8 +4,8 @@
   "type": "module",
   "description": "Workshop to introduce and get started with the Cypress testing framework utilising Cypress Testing Library to create a user focussed journey",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run":  "cypress run"
   },
   "keywords": [
     "cypress",
@@ -15,7 +15,7 @@
   "license": "ISC",
   "homepage": "https://github.com/rob212/cypress-workshop#readme",
   "devDependencies": {
-    "@testing-library/cypress": "^7.0.1",
-    "cypress": "^5"
+    "@testing-library/cypress": "^8.0.3",
+    "cypress": "10.4.0"
   }
 }

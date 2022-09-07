@@ -1,5 +1,5 @@
 /*
-    Your 'cypress/integration/journey_test.spec.js' should
+    Your 'cypress/integration/journey_test.cy.js' should
     contain the following content at the end of this lesson
 */
 
