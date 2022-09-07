@@ -34,7 +34,7 @@ After you've made sure to have the correct things (and versions) installed, you
 should be able to just run a few commands to get set up:
 
 ```sh
-$ git clone https://github.com/rob212/cypress-workshop.git
+$ git clone https://github.com/podrob/cypress-workshop.git
 $ cd cypress-workshop
 ```
 
