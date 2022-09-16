@@ -14,7 +14,7 @@ This repo contains a workshop to teach you about getting started with the [Cypre
 ## System Requirements
 
 - [git](https://git-scm.com/) v2 or greater
-- [NodeJS](https://nodejs.org/) v10 or greater
+- [NodeJS](https://nodejs.org/) v12 or greater
 - [npm](https://www.npmjs.com/) v6 or greater
 
 > If you do not have Node installed and are running on Mac or Linux, I advise the use of [nvm](https://github.com/nvm-sh/nvm)
@@ -58,7 +58,7 @@ Work your way through the exercises sequentially. The solutions are available in
 
 ### Questions
 
-Please do ask! Interrupt me. If you have an unrelated question, please send me it on Slack/Gather.
+Please do ask! Interrupt me. If you have an unrelated question, please send me it on Slack/Gather/Meet.
 
 ### Gather (for remote workshops)
 
